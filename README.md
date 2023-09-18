@@ -1,1 +1,1 @@
-# Scientific-Thesis BA-Internship
+# Scientific-Thesis BA-Internship Project
