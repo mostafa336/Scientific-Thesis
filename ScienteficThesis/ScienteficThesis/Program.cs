@@ -1,7 +1,10 @@
+using ScienteficThesis.Repository;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddTransient<IUni,UniRepository>();
 
 var app = builder.Build();
 

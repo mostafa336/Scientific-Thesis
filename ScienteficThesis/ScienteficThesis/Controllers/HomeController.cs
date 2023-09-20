@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ScienteficThesis.Models;
+using ScienteficThesis.Repository;
+using ScienteficThesis.Services;
 using System.Diagnostics;
 
 namespace ScienteficThesis.Controllers
@@ -7,6 +9,7 @@ namespace ScienteficThesis.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private  IUni iu;
 
         public HomeController(ILogger<HomeController> logger)
         {
@@ -15,11 +18,31 @@ namespace ScienteficThesis.Controllers
 
         public IActionResult Index()
         {
+
             return View();
         }
-
-        public IActionResult Privacy()
+        [HttpPost]
+        public IActionResult Privacy(string NameEn, string NameAr)
         {
+            University u = new University()
+            {
+                UniNameAr = NameAr,
+                UniNameEn  = NameEn
+
+            };
+
+            iu = new UniRepository();
+            UniValidationService uv = new UniValidationService(iu);
+            uv.setModel(u);
+            if(uv.ValidUni())
+            {
+                ViewBag.En = "Data Submitted Successfuly into the database";
+            }
+            else
+            {
+                ViewBag.En = "Data insertion Proccess failed into the database";
+            }
+
             return View();
         }
 
