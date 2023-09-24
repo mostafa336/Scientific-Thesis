@@ -1,0 +1,132 @@
+﻿@page
+@model Thesis.Pages.Form.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>FirstApplication</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="FirstApplication.AppNameAr" class="control-label"></label>
+                <input asp-for="FirstApplication.AppNameAr" class="form-control" />
+                <span asp-validation-for="FirstApplication.AppNameAr" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstApplication.AppNameEn" class="control-label"></label>
+                <input asp-for="FirstApplication.AppNameEn" class="form-control" />
+                <span asp-validation-for="FirstApplication.AppNameEn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstApplication.AppEmail" class="control-label"></label>
+                <input asp-for="FirstApplication.AppEmail" class="form-control" />
+                <span asp-validation-for="FirstApplication.AppEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstApplication.AppBirthDate" class="control-label"></label>
+                <input asp-for="FirstApplication.AppBirthDate" class="form-control" />
+                <span asp-validation-for="FirstApplication.AppBirthDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstApplication.AppJob" class="control-label"></label>
+                <input asp-for="FirstApplication.AppJob" class="form-control" />
+                <span asp-validation-for="FirstApplication.AppJob" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstApplication.AppNationalityId" class="control-label"></label>
+                <select asp-for="FirstApplication.AppNationalityId" class ="form-control" asp-items="ViewBag.AppNationalityId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstApplication.AppNationalId" class="control-label"></label>
+                <input asp-for="FirstApplication.AppNationalId" class="form-control" />
+                <span asp-validation-for="FirstApplication.AppNationalId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstApplication.AppThesisTitleAr" class="control-label"></label>
+                <input asp-for="FirstApplication.AppThesisTitleAr" class="form-control" />
+                <span asp-validation-for="FirstApplication.AppThesisTitleAr" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstApplication.AppThesisTitleEn" class="control-label"></label>
+                <input asp-for="FirstApplication.AppThesisTitleEn" class="form-control" />
+                <span asp-validation-for="FirstApplication.AppThesisTitleEn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstApplication.AppVolumes" class="control-label"></label>
+                <input asp-for="FirstApplication.AppVolumes" class="form-control" />
+                <span asp-validation-for="FirstApplication.AppVolumes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstApplication.AppPages" class="control-label"></label>
+                <input asp-for="FirstApplication.AppPages" class="form-control" />
+                <span asp-validation-for="FirstApplication.AppPages" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstApplication.AppPublicationYear" class="control-label"></label>
+                <input asp-for="FirstApplication.AppPublicationYear" class="form-control" />
+                <span asp-validation-for="FirstApplication.AppPublicationYear" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstApplication.AppDepartment" class="control-label"></label>
+                <input asp-for="FirstApplication.AppDepartment" class="form-control" />
+                <span asp-validation-for="FirstApplication.AppDepartment" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstApplication.AppFaculty" class="control-label"></label>
+                <input asp-for="FirstApplication.AppFaculty" class="form-control" />
+                <span asp-validation-for="FirstApplication.AppFaculty" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstApplication.AppUniversityId" class="control-label"></label>
+                <select asp-for="FirstApplication.AppUniversityId" class ="form-control" asp-items="ViewBag.AppUniversityId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstApplication.AppKeyword" class="control-label"></label>
+                <input asp-for="FirstApplication.AppKeyword" class="form-control" />
+                <span asp-validation-for="FirstApplication.AppKeyword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstApplication.AppNotes" class="control-label"></label>
+                <input asp-for="FirstApplication.AppNotes" class="form-control" />
+                <span asp-validation-for="FirstApplication.AppNotes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstApplication.AppSubmissionLetter" class="control-label"></label>
+                <input asp-for="FirstApplication.AppSubmissionLetter" class="form-control" />
+                <span asp-validation-for="FirstApplication.AppSubmissionLetter" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstApplication.AppThesis" class="control-label"></label>
+                <!-- <input asp-for="FirstApplication.AppThesis" class="form-control" /> -->
+                <input type="file" asp-for="File" />
+                <span asp-validation-for="FirstApplication.AppThesis" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstApplication.AppLanguageMaster" class="control-label"></label>
+                <input asp-for="FirstApplication.AppLanguageMaster" class="form-control" />
+                <span asp-validation-for="FirstApplication.AppLanguageMaster" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstApplication.AppDegreeId" class="control-label"></label>
+                <select asp-for="FirstApplication.AppDegreeId" class ="form-control" asp-items="ViewBag.AppDegreeId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
