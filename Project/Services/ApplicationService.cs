@@ -14,9 +14,9 @@ namespace Thesis.Services
     public class ApplicationService : IApplicationService
     {
         private readonly IApplicationRepository _applicationRepository;
-        private readonly IWebHostEnvironment _HostEnvironment;
+        private readonly IHostingEnvironment _HostEnvironment;
 
-        public ApplicationService(IApplicationRepository _applicationRepository, IWebHostEnvironment _HostEnvironment)
+        public ApplicationService(IApplicationRepository _applicationRepository, IHostingEnvironment _HostEnvironment)
         {
             this._applicationRepository = _applicationRepository;
             this._HostEnvironment = _HostEnvironment;
@@ -60,10 +60,9 @@ namespace Thesis.Services
             
         }
 
-        public String UploadThesis(IFormFile File,String directory)
+        public async Task<String> UploadThesisAsync(IFormFile File,String directory)
         {
             String f = "-";
-            //[FromServices] IHostingEnvironment hostingEnvironment;
             if (File != null && File.Length > 0)
             {
                  f = DateTime.Now.ToString("yyyyMMddHHmmssffff");
@@ -72,8 +71,8 @@ namespace Thesis.Services
                 string filePath = Path.Combine(_HostEnvironment.WebRootPath, directory, fileName);
                 using (FileStream fileStream = new FileStream(filePath, FileMode.Create))
                 {
-                    File.CopyToAsync(fileStream);
-                    fileStream.Flush();
+                    await File.CopyToAsync(fileStream);
+                   // fileStream.Flush();
                 }
                 
             }

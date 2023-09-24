@@ -54,8 +54,9 @@ namespace Thesis.Pages.Form
             if(_IAppService != null)
             {
                 
-                FirstApplication.AppThesis = _IAppService.UploadThesis(SubmissionFile,"Thesis");
-                FirstApplication.AppSubmissionLetter = _IAppService.UploadThesis(ThesisFile, "SubmissionLetter");
+                 FirstApplication.AppThesis = await _IAppService.UploadThesisAsync(ThesisFile, "Thesis");
+                 FirstApplication.AppSubmissionLetter = await _IAppService.UploadThesisAsync(SubmissionFile, "SubmissionLetter");
+
 
 
                 _IAppService.Insert(FirstApplication);
