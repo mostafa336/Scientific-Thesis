@@ -17,22 +17,22 @@ namespace Thesis.Pages.Form
         private readonly IApplicationService _IAppService;
         private readonly IDegreeService _degreeService;
         private readonly ICountryService _countryService;
-//        private readonly IWebHostEnvironment _webHostEnvironment;
+        private readonly IUniversityService _universityService;
 
-        public CreateModel(IApplicationService _IAppService, IDegreeService _degreeService,ICountryService _countryService)
+        public CreateModel(IUniversityService _universityService,IApplicationService _IAppService, IDegreeService _degreeService,ICountryService _countryService)
         {
             this._IAppService = _IAppService;
             this._degreeService = _degreeService;
             this._countryService = _countryService;
-           // this._webHostEnvironment = webHostEnvironment;
+            this._universityService = _universityService;
         }
 
         public IActionResult OnGet()
         {
 
-        ViewData["AppDegreeId"] = new SelectList(_degreeService.GetAll(), "DegId", "DegNameEn");
+        ViewData["AppDegreeId"] = new SelectList(_degreeService.GetAll(), "DegId", "DegNameAr");
         ViewData["AppNationalityId"] = new SelectList(_countryService.GetAll(), "CntId", "CntNameEn");
-        //ViewData["AppUniversityId"] = new SelectList(_context.Universities//, "UniId", "UniNameEn");
+        ViewData["AppUniversityId"] = new SelectList(_universityService.GetAll(), "UniId", "UniNameEn");
             return Page();
         }
 
@@ -40,7 +40,10 @@ namespace Thesis.Pages.Form
         public FirstApplication FirstApplication { get; set; } = default!;
 
         [BindProperty]
-        public IFormFile File { get; set; }
+        public IFormFile ThesisFile { get; set; }
+        [BindProperty]
+        public IFormFile SubmissionFile { get; set; }
+        
 
 
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
@@ -50,7 +53,12 @@ namespace Thesis.Pages.Form
 
             if(_IAppService != null)
             {
-                _IAppService.UploadThesis(File);
+                
+                FirstApplication.AppThesis = _IAppService.UploadThesis(SubmissionFile,"Thesis");
+                FirstApplication.AppSubmissionLetter = _IAppService.UploadThesis(ThesisFile, "SubmissionLetter");
+
+
+                _IAppService.Insert(FirstApplication);
                 return RedirectToPage("./Index");
             }
 

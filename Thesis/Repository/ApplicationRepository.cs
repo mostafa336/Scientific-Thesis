@@ -12,14 +12,7 @@ namespace Thesis.Repository
         }
         public bool Insert(FirstApplication orginal,ModifiedApplication edit)
         {
-            //_context.FirstApplications.Add(orginal);
-            //_context.SaveChanges();
-            //DateTime dateTime = orginal.AppSubmissionTime;
-            //string id = _context.FirstApplications.FromSqlRaw($"SELECT APP_ID FROM FirstApplication WHERE APP_SubmissionTime ={0};", dateTime).FirstOrDefault();
-            //edit.AppId = 
-            //_context.ModifiedApplications.Add(edit);
-            //return true;
-            //--------------------------
+
             _context.FirstApplications.Add(orginal);
             _context.ModifiedApplications.Add(edit);
             _context.SaveChanges();

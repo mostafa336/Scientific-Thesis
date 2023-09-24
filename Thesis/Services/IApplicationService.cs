@@ -7,7 +7,7 @@ namespace Thesis.Services
     public interface IApplicationService
     {
         public bool Insert(FirstApplication application);
-        public bool UploadThesis(IFormFile File); 
+        public String UploadThesis(IFormFile File,String directory); 
 
     }
 }

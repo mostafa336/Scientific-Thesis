@@ -11,7 +11,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form method="post">
+        <form method="post" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="FirstApplication.AppNameAr" class="control-label"></label>
@@ -98,13 +98,12 @@
             </div>
             <div class="form-group">
                 <label asp-for="FirstApplication.AppSubmissionLetter" class="control-label"></label>
-                <input asp-for="FirstApplication.AppSubmissionLetter" class="form-control" />
+                <input type="file" asp-for="SubmissionFile" class="form-control    />
                 <span asp-validation-for="FirstApplication.AppSubmissionLetter" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="FirstApplication.AppThesis" class="control-label"></label>
-                <!-- <input asp-for="FirstApplication.AppThesis" class="form-control" /> -->
-                <input type="file" asp-for="File" />
+                <input type="file" asp-for="ThesisFile" class="form-control  />
                 <span asp-validation-for="FirstApplication.AppThesis" class="text-danger"></span>
             </div>
             <div class="form-group">

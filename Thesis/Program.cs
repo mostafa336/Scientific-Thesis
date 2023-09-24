@@ -14,6 +14,8 @@ builder.Services.AddTransient<ICountryRepository, CountryRepository>();
 builder.Services.AddTransient<ICountryService, CountryService>();
 builder.Services.AddTransient<IApplicationService, ApplicationService>();
 builder.Services.AddTransient<IApplicationRepository, ApplicationRepository>();
+builder.Services.AddTransient<IUniversityService, UniversityService>();
+builder.Services.AddTransient<IUniversityRepository, UniversityRepository>();
 
 
 var app = builder.Build();

@@ -7,6 +7,7 @@ using System.IO;
 using static System.Net.Mime.MediaTypeNames;
 using Microsoft.AspNetCore.Mvc;
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
+using Microsoft.Extensions.Hosting.Internal;
 
 namespace Thesis.Services
 {
@@ -23,10 +24,6 @@ namespace Thesis.Services
         public bool Insert(FirstApplication application)
         {
             application.AppSubmissionTime = DateTime.Now;
-            application.AppUniversityId = 17 ;
-            application.AppThesis = "TT";
-            //string mod = JsonSerializer.Serialize(application);
-            //string[] textSplit = mod.Split("AppThesis");
             ModifiedApplication m = new ModifiedApplication();
             m.AppNameAr = application.AppNameAr;
             m.AppNameEn = application.AppNameEn;
@@ -63,20 +60,26 @@ namespace Thesis.Services
             
         }
 
-        public Boolean UploadThesis(IFormFile File)
+        public String UploadThesis(IFormFile File,String directory)
         {
+            String f = "-";
             //[FromServices] IHostingEnvironment hostingEnvironment;
             if (File != null && File.Length > 0)
             {
-                string fileName = Path.Combine(_HostEnvironment.WebRootPath, "Thesis", File.FileName);
-                using (FileStream fileStream = new FileStream(fileName, FileMode.Create))
+                 f = DateTime.Now.ToString("yyyyMMddHHmmssffff");
+
+                string fileName =   f + Path.GetExtension(File.FileName); // name conc + Extension
+                string filePath = Path.Combine(_HostEnvironment.WebRootPath, directory, fileName);
+                using (FileStream fileStream = new FileStream(filePath, FileMode.Create))
                 {
                     File.CopyToAsync(fileStream);
                     fileStream.Flush();
                 }
+                
             }
-            return true;
-            
+            return f;
+
+
         }
     }
 }
