@@ -1,0 +1,157 @@
+﻿@page
+@model Thesis.Pages.Form.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstApplication[0].AppNameAr)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstApplication[0].AppNameEn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstApplication[0].AppEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstApplication[0].AppBirthDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstApplication[0].AppJob)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstApplication[0].AppNationalId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstApplication[0].AppThesisTitleAr)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstApplication[0].AppThesisTitleEn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstApplication[0].AppVolumes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstApplication[0].AppPages)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstApplication[0].AppPublicationYear)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstApplication[0].AppDepartment)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstApplication[0].AppFaculty)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstApplication[0].AppKeyword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstApplication[0].AppNotes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstApplication[0].AppSubmissionLetter)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstApplication[0].AppThesis)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstApplication[0].AppLanguageMaster)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstApplication[0].AppDegree)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstApplication[0].AppNationality)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstApplication[0].AppUniversity)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.FirstApplication) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppNameAr)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppNameEn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppBirthDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppJob)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppNationalId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppThesisTitleAr)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppThesisTitleEn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppVolumes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppPages)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppPublicationYear)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppDepartment)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppFaculty)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppKeyword)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppNotes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppSubmissionLetter)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppThesis)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppLanguageMaster)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppDegree.DegId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppNationality.CntId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppUniversity.UniId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.AppId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.AppId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.AppId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

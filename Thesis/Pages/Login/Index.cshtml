@@ -1,0 +1,45 @@
+﻿@page
+@model Thesis.Pages.Login.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<p>
+    Welcome @Html.DisplayFor(model => model.name)
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Admin[0].AdName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Admin[0].AdEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Admin[0].AdPassword)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Admin) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdPassword)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
