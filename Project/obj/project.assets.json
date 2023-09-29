@@ -11354,19 +11354,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tamim\\.nuget\\packages\\": {}
+    "C:\\Users\\tefa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\Thesis.csproj",
+      "projectUniqueName": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\Thesis.csproj",
       "projectName": "Thesis",
-      "projectPath": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\Thesis.csproj",
-      "packagesPath": "C:\\Users\\Tamim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\obj\\",
+      "projectPath": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\Thesis.csproj",
+      "packagesPath": "C:\\Users\\tefa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Tamim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11444,7 +11444,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   },

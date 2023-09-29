@@ -27,9 +27,12 @@ namespace Thesis.Repository
             return Unis;
         }
 
-        public University GetById(int tId)
+        public University? GetById(int tId)
         {
-            throw new NotImplementedException();
+            var tmp = _context.Universities.FirstOrDefault(University => University.UniId == tId);
+            if (tmp == null)
+                return null;
+            return tmp;
         }
 
         public bool Insert(University t)

@@ -1,295 +1,255 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Thesis.bundle.scp.css",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Thesis.bundle.scp.css",
       "PackagePath": "staticwebassets\\Thesis.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\SubmissionLetter\\202309241614111599.pdf",
-      "PackagePath": "staticwebassets\\SubmissionLetter\\202309241614111599.pdf"
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\SubmissionLetter\\202309291449439793.pdf",
+      "PackagePath": "staticwebassets\\SubmissionLetter\\202309291449439793.pdf"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\SubmissionLetter\\202309241629479805.pdf",
-      "PackagePath": "staticwebassets\\SubmissionLetter\\202309241629479805.pdf"
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\Thesis\\202309291449438354.pdf",
+      "PackagePath": "staticwebassets\\Thesis\\202309291449438354.pdf"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\SubmissionLetter\\202309241633460934.pdf",
-      "PackagePath": "staticwebassets\\SubmissionLetter\\202309241633460934.pdf"
-    },
-    {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\SubmissionLetter\\202309241645165976.pdf",
-      "PackagePath": "staticwebassets\\SubmissionLetter\\202309241645165976.pdf"
-    },
-    {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\Thesis\\202309241614111155.pdf",
-      "PackagePath": "staticwebassets\\Thesis\\202309241614111155.pdf"
-    },
-    {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\Thesis\\202309241629479772.pdf",
-      "PackagePath": "staticwebassets\\Thesis\\202309241629479772.pdf"
-    },
-    {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\Thesis\\202309241633164150.pdf",
-      "PackagePath": "staticwebassets\\Thesis\\202309241633164150.pdf"
-    },
-    {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\Thesis\\202309241645130502.pdf",
-      "PackagePath": "staticwebassets\\Thesis\\202309241645130502.pdf"
-    },
-    {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\Thesis\\202309242326109688.pdf",
-      "PackagePath": "staticwebassets\\Thesis\\202309242326109688.pdf"
-    },
-    {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\Thesis\\202309242330150982.pdf",
-      "PackagePath": "staticwebassets\\Thesis\\202309242330150982.pdf"
-    },
-    {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\Thesis\\202309242330272202.pdf",
-      "PackagePath": "staticwebassets\\Thesis\\202309242330272202.pdf"
-    },
-    {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\Thesis\\202309242334495047.pdf",
-      "PackagePath": "staticwebassets\\Thesis\\202309242334495047.pdf"
-    },
-    {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Tamim\\OneDrive - Alexandria University\\Desktop\\BA-Internship'23\\.NET\\Thesis\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\tefa\\Desktop\\create branch to upload\\Scientific-Thesis\\Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

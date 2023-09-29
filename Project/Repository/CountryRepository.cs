@@ -31,9 +31,12 @@ namespace Thesis.Repository
             return Countries;
         }
 
-        public Country GetById(int tId)
+        public Country? GetById(int tId)
         {
-            throw new NotImplementedException();
+            var tmp = _context.Countries.FirstOrDefault(country => country.CntId == tId);
+            if (tmp == null)
+                return null;
+            return tmp;
         }
 
         public bool Insert(Country t)

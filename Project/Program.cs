@@ -18,6 +18,19 @@ builder.Services.AddTransient<IUniversityService, UniversityService>();
 builder.Services.AddTransient<IUniversityRepository, UniversityRepository>();
 
 
+builder.Services.AddTransient<IModifiedService, ModifiedService>();
+builder.Services.AddTransient<IModifiedRepository, ModifiedRepository>();
+builder.Services.AddScoped<IModifiedRepository, ModifiedRepository>();
+builder.Services.AddScoped<IModifiedService, ModifiedService>();
+
+builder.Services.AddTransient<ILastModifierService, LastModifierService>();
+builder.Services.AddTransient<ILastModifierRepository, LastModifierRepository>();
+
+builder.Services.AddTransient<IStatusService, StatusService>();
+builder.Services.AddTransient<IStatusRepository, StatusRepository>();
+
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

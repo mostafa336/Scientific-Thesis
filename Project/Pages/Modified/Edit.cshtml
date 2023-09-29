@@ -1,0 +1,165 @@
+﻿@page
+@model Thesis.Pages.Modified.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<head>
+    <style>
+        .hide-label {
+            display: none;
+        }        
+    </style>
+</head>
+
+<h1>Edit</h1>
+
+<h4>ModifiedApplication</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ModifiedApplication.AppId" />
+            <div class="form-group">
+                <label asp-for="ModifiedApplication.AppNameAr" class="control-label"></label>
+                <input asp-for="ModifiedApplication.AppNameAr" class="form-control" />
+                <span asp-validation-for="ModifiedApplication.AppNameAr" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModifiedApplication.AppNameEn" class="control-label"></label>
+                <input asp-for="ModifiedApplication.AppNameEn" class="form-control" />
+                <span asp-validation-for="ModifiedApplication.AppNameEn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModifiedApplication.AppEmail" class="control-label"></label>
+                <input asp-for="ModifiedApplication.AppEmail" class="form-control" />
+                <span asp-validation-for="ModifiedApplication.AppEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModifiedApplication.AppBirthDate" class="control-label"></label>
+                <input asp-for="ModifiedApplication.AppBirthDate" class="form-control" />
+                <span asp-validation-for="ModifiedApplication.AppBirthDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModifiedApplication.AppJob" class="control-label"></label>
+                <input asp-for="ModifiedApplication.AppJob" class="form-control" />
+                <span asp-validation-for="ModifiedApplication.AppJob" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModifiedApplication.AppNationalityId" class="control-label"></label>
+                <select asp-for="ModifiedApplication.AppNationalityId" class="form-control" asp-items="ViewBag.AppNationalityId"></select>
+                <span asp-validation-for="ModifiedApplication.AppNationalityId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModifiedApplication.AppNationalId" class="control-label"></label>
+                <input asp-for="ModifiedApplication.AppNationalId" class="form-control" />
+                <span asp-validation-for="ModifiedApplication.AppNationalId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModifiedApplication.AppThesisTitleAr" class="control-label"></label>
+                <input asp-for="ModifiedApplication.AppThesisTitleAr" class="form-control" />
+                <span asp-validation-for="ModifiedApplication.AppThesisTitleAr" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModifiedApplication.AppThesisTitleEn" class="control-label"></label>
+                <input asp-for="ModifiedApplication.AppThesisTitleEn" class="form-control" />
+                <span asp-validation-for="ModifiedApplication.AppThesisTitleEn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModifiedApplication.AppVolumes" class="control-label"></label>
+                <input asp-for="ModifiedApplication.AppVolumes" class="form-control" />
+                <span asp-validation-for="ModifiedApplication.AppVolumes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModifiedApplication.AppPages" class="control-label"></label>
+                <input asp-for="ModifiedApplication.AppPages" class="form-control" />
+                <span asp-validation-for="ModifiedApplication.AppPages" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModifiedApplication.AppPublicationYear" class="control-label"></label>
+                <input asp-for="ModifiedApplication.AppPublicationYear" class="form-control" />
+                <span asp-validation-for="ModifiedApplication.AppPublicationYear" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModifiedApplication.AppDepartment" class="control-label"></label>
+                <input asp-for="ModifiedApplication.AppDepartment" class="form-control" />
+                <span asp-validation-for="ModifiedApplication.AppDepartment" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModifiedApplication.AppFaculty" class="control-label"></label>
+                <input asp-for="ModifiedApplication.AppFaculty" class="form-control" />
+                <span asp-validation-for="ModifiedApplication.AppFaculty" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModifiedApplication.AppUniversityId" class="control-label"></label>
+                <select asp-for="ModifiedApplication.AppUniversityId" class="form-control" asp-items="ViewBag.AppUniversityId"></select>
+                <span asp-validation-for="ModifiedApplication.AppUniversityId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModifiedApplication.AppKeyword" class="control-label"></label>
+                <input asp-for="ModifiedApplication.AppKeyword" class="form-control" />
+                <span asp-validation-for="ModifiedApplication.AppKeyword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModifiedApplication.AppNotes" class="control-label "></label>
+                <input asp-for="ModifiedApplication.AppNotes" class="form-control " />
+                <span asp-validation-for="ModifiedApplication.AppNotes" class="text-danger "></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModifiedApplication.AppSubmissionLetter" class="control-label "></label>
+                <input  asp-for="ModifiedApplication.AppSubmissionLetter" class="form-control " />
+                <span asp-validation-for="ModifiedApplication.AppSubmissionLetter" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+            <label asp-for="ModifiedApplication.AppThesis" class="control-label "></label>
+            <input  asp-for="ModifiedApplication.AppThesis" class="form-control " />
+                <span asp-validation-for="ModifiedApplication.AppThesis" class="text-danger  "></span>
+            </div> 
+         
+
+            <div class="form-group">
+                <label asp-for="ModifiedApplication.AppLanguageMaster" class="control-label"></label>
+                <input asp-for="ModifiedApplication.AppLanguageMaster" class="form-control" />
+                <span asp-validation-for="ModifiedApplication.AppLanguageMaster" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModifiedApplication.AppDegreeId" class="control-label"></label>
+                <select asp-for="ModifiedApplication.AppDegreeId" class="form-control" asp-items="ViewBag.AppDegreeId"></select>
+                <span asp-validation-for="ModifiedApplication.AppDegreeId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModifiedApplication.AppLastModificationDate" class="control-label"></label>
+                <input asp-for="ModifiedApplication.AppLastModificationDate" class="form-control" />
+                <span asp-validation-for="ModifiedApplication.AppLastModificationDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModifiedApplication.AppLastModifierId" class="control-label"></label>
+                <select asp-for="ModifiedApplication.AppLastModifierId" class="form-control" asp-items="ViewBag.AppLastModifierId"></select>
+                <span asp-validation-for="ModifiedApplication.AppLastModifierId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModifiedApplication.AppStatusId" class="control-label"></label>
+                <select asp-for="ModifiedApplication.AppStatusId" class="form-control" asp-items="ViewBag.AppStatusId"></select>
+                <span asp-validation-for="ModifiedApplication.AppStatusId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModifiedApplication.AppEbCode" class="control-label"></label>
+                <input asp-for="ModifiedApplication.AppEbCode" class="form-control" />
+                <span asp-validation-for="ModifiedApplication.AppEbCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -16,9 +16,9 @@ namespace Thesis.Repository
         }
         public bool Delete(int tId)
         {
-                var TDegree = _context.Degrees.Find(tId);
-                if (TDegree != null)
-                {
+            var TDegree = _context.Degrees.Find(tId);
+            if (TDegree != null)
+            {
                 _context.Degrees.Remove(TDegree);
                 _context.SaveChanges();
                 return true;
@@ -32,9 +32,12 @@ namespace Thesis.Repository
             return Degrees;
         }
 
-        public Degree GetById(int tId)
+        public Degree? GetById(int Id)
         {
-            throw new NotImplementedException();
+            var tmp = _context.Degrees.FirstOrDefault(degree => degree.DegId == Id);
+            if (tmp == null)
+                return null;
+            return tmp;
         }
 
         public bool Insert(Degree t)

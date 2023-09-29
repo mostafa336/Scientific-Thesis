@@ -1,0 +1,185 @@
+﻿@page
+@model Thesis.Pages.Modified.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>ModifiedApplication</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.AppNameAr)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ModifiedApplication.AppNameAr)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.AppNameEn)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ModifiedApplication.AppNameEn)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.AppEmail)
+        </dt>
+        <dd class="col-sm-10">
+            <a href="mailto:@Html.DisplayFor(model => model.ModifiedApplication.AppEmail)">
+                @Html.DisplayFor(model => model.ModifiedApplication.AppEmail)
+            </a>
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.AppBirthDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ModifiedApplication.AppBirthDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.AppJob)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ModifiedApplication.AppJob)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.AppNationalId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ModifiedApplication.AppNationalId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.AppThesisTitleAr)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ModifiedApplication.AppThesisTitleAr)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.AppThesisTitleEn)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ModifiedApplication.AppThesisTitleEn)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.AppVolumes)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ModifiedApplication.AppVolumes)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.AppPages)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ModifiedApplication.AppPages)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.AppPublicationYear)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ModifiedApplication.AppPublicationYear)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.AppDepartment)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ModifiedApplication.AppDepartment)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.AppFaculty)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ModifiedApplication.AppFaculty)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.AppKeyword)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ModifiedApplication.AppKeyword)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.AppNotes)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ModifiedApplication.AppNotes)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.AppSubmissionLetter)
+        </dt>
+        <dd class="col-sm-10">
+            <a target="_blank" method="Get" asp-page-handler="SubmissionLetter" asp-route-filename="@Model.ModifiedApplication.AppSubmissionLetter">
+                @Html.DisplayFor(model => model.ModifiedApplication.AppSubmissionLetter)
+            </a>
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.AppThesis)
+        </dt>
+        <dd class="col-sm-10">
+            <a target="_blank" method="Get" asp-page-handler="ThesisViewer" asp-route-filename="@Model.ModifiedApplication.AppThesis">
+                @Html.DisplayFor(model => model.ModifiedApplication.AppThesis)
+            </a>
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.AppLanguageMaster)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ModifiedApplication.AppLanguageMaster) 
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.AppLastModificationDate)
+        </dt>
+        <dd class="col-sm-10">
+             @Html.DisplayFor(model => model.ModifiedApplication.AppLastModificationDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.AppEbCode)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ModifiedApplication.AppEbCode)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.App)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ModifiedApplication.App.AppId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.AppDegree)
+        </dt>
+        <dd class="col-sm-10">
+               @ViewData["AppDegreeId"] 
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.AppLastModifier)
+        </dt>
+        <dd class="col-sm-10">
+           @*  @Html.DisplayFor(model => model.ModifiedApplication.AppLastModifier.AdId) *@
+            @ViewData["AppLastModifierId"]
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.AppNationality)
+        </dt>
+        <dd class="col-sm-10">
+            @ViewData["AppNationalityId"]
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.AppStatus)
+        </dt>
+        <dd class="col-sm-10">
+                @* @Html.DisplayFor(model => model.ModifiedApplication.AppStatus.StId)*@
+            @ViewData["AppStatusId"]
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedApplication.AppUniversity)
+        </dt>
+        <dd class="col-sm-10">
+            @* @Html.DisplayFor(model => model.ModifiedApplication.AppUniversity.UniId) *@
+            @ViewData["AppUniversityId"]
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.ModifiedApplication?.AppId">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>
